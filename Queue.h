@@ -2,7 +2,7 @@
 *** NAME : Jacob Zenner                                                   ***
 *** CLASS : CSc 300                                                       ***
 *** ASSIGNMENT : 4                                                        ***
-*** DUE DATE : 10/5/2022                                                  ***
+*** DUE DATE : 10/17/2022                                                  ***
 *** INSTRUCTOR : GAMRADT                                                  ***
 *** DESCRIPTION : This h file defines a Queue class which has the member  *** 
 *** functions enQueue, deQueue, and view                                  ***
