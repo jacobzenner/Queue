@@ -70,6 +70,8 @@ Queue::~Queue()
     QElement num;
     while(!isEmpty())
     deQueue(num);
+    
+    delete [] queue;
 }
 
 
@@ -127,7 +129,7 @@ void Queue::deQueue(QElement & num)
     else
     {
         num = queue[front];
-        front++;
+        front = (front+1)%Q_SIZE;
     }
 }
 
